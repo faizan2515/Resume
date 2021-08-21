@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Responsive Resume
 
 ## FOR LIVE PROJECT, GOTO FOLLOWING LINK
 
