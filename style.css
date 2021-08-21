@@ -25,7 +25,6 @@
 }
 .col-60{
     width:60%;
-    height: 100vh;
     background-color: #ffffff;
 }
 .profile{
@@ -146,3 +145,25 @@ a{
     color: white;
     margin-left: 10px;
 }
+@media screen and (max-width: 1024px) {
+    .row{
+        width: 100%;
+    }
+ }
+@media screen and (max-width: 768px) {
+   .row{
+       width: 100%;
+   }
+}
+@media screen and (max-width: 425px) {
+    .row{
+        width: 100%;
+        flex-direction: column;
+    }
+    .col-40{
+        width: 100%;
+    }
+    .col-60{
+        width: 100%;
+    }
+ }
