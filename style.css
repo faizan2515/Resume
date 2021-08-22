@@ -13,7 +13,7 @@
 }
 .row{
     display: flex;
-    width:50%;
+    width:60%;
     background-color: white;
 }
 .col-40{
@@ -25,7 +25,7 @@
 }
 .col-60{
     width:60%;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
 }
 .profile{
     margin-top: 25px;
@@ -51,11 +51,11 @@
 h2{
     font-weight: 200;
     margin: 0 20%;
+    color: white;
     margin-top: -18px;
     margin-bottom: 10px;
     padding: 5px 20px;
     border-radius: 25px;
-    color: white;
     text-align: center;
 }
 .skill{
@@ -144,6 +144,91 @@ a{
     color: white;
     margin-left: 10px;
 }
+.about-me{
+    width: 100%;
+    margin-top: 9%;
+}
+.right-title{
+    background-color: #dfe3e4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 40px;
+}
+.right-title h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin-left: 20%;
+}
+.description{
+    padding: 10px 20px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.right-icon{
+    width: 30px;
+}
+ul {
+    margin-left: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+  }
+  li{
+      display: flex;
+      color: #8b9596;
+  }
+  li p{
+      color: black;
+  }
+  li a{
+      color: #8b9596;
+  }
+  li a:hover{
+      color: #0992c8;
+  }
+  ul li {
+    padding: 0 0 20px 20px;
+    position: relative;
+    margin: 0;
+  }
+  ul li:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    border: 2px solid #8b9596;
+    border-radius: 50%;
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    line-height: 10px;
+    background: #8b9596;
+  }
+  ul li:before {
+    position: absolute;
+    left: 7px;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 0;
+    border-left: 2px solid #8b9596;
+  }
+  ul li:last-of-type:before {
+    border: none;
+  }
+  .education-detail{
+      margin-left: 20px;
+  }
+  .education-detail h3{
+      color: black;
+  }
+  .education-detail strong{
+      color: #83c0c5;
+  }
+  .education-detail p{
+      color: #8b9596;;
+  }
 @media screen and (max-width: 1024px) {
     .row{
         width: 100%;
