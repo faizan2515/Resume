@@ -12,15 +12,6 @@
     align-items: center;
     position: relative;
 }
-.print{
-    position: absolute;
-    top: 2%;
-    right: 2%;
-    width: 32px;
-}
-.print:hover{
-    cursor: pointer;
-}
 .row{
     display: flex;
     width:60%;
@@ -239,25 +230,16 @@ ul {
       color: #8b9596;;
   }
 @media screen and (max-width: 1024px) {
-    .print{
-        display: none;
-    }
     .row{
         width: 100%;
     }
  }
 @media screen and (max-width: 768px) {
-    .print{
-        display: none;
-    }
     .row{
        width: 100%;
    }
 }
 @media screen and (max-width: 425px) {
-    .print{
-        display: none;
-    }
     .row{
         width: 100%;
         flex-direction: column;
@@ -271,10 +253,6 @@ ul {
  }
  @media print
 {    
-    .print
-    {
-        display: none;
-    }
     .row{
         width: 100%;
     }
